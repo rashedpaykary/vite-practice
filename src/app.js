@@ -2,6 +2,7 @@ import { El } from "./components/shared/El/index";
 import { Test } from "./components/test";
 import { counter } from "./utils/script";
 export const App = () => {
+  console.log("HelloWorld");
   const amount = counter(10);
   function logData() {
     // @* مهم اگه میخوای فانکشن لاگ دیتا و یا هر تابعی رو که این مدلی نوشتیم اکسپورت کنیم باید به مثل تابع آپ داخل کانست بریزی
