@@ -9,11 +9,11 @@ export const App = () => {
     document.getElementById("h1").style.backgroundColor = "red";
   }
   return El({
+    // این El اولی داخل آبجکته نه آرایه چون داریم فانکشن کال می کنیم
     element: "div",
     className: "bg-red-400 flex justify-content justify-between",
     children: [
       El({
-        // این El اولی داخل آبجکته نه آرایه
         element: "div",
         className: " flex flex-col gap-5",
         children: [
